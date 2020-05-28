@@ -43,6 +43,7 @@ p {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  background-position: 50%;
 }
 .banner--center {
   display: flex;
