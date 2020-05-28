@@ -107,7 +107,13 @@ footer .fas {
   width: 200px;
   padding: 20px;
   box-shadow: 0 0 5px #e6e6e6;
-  margin: 32px 0;
+  margin: 32px 10px;
+}
+@media screen and (max-width: 660px) {
+  .card-presentation {
+    margin: 32px 3px;
+    width: 80%;
+  }
 }
 .card-presentation img {
   width: 80%;
