@@ -1,0 +1,28 @@
+.banner {
+  background-image: url("../../images/theatre_banner.jpg");
+  background-size: cover;
+  padding: 400px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+    h1 {
+      color: white;
+      display: inline-block;
+      background-color: red;
+      padding: 0.8rem 1.4rem;
+    }
+
+    h2 {
+      color: white;
+      font-weight: lighter;
+      text-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+      @include mobile-only {
+        text-align: center;
+      }
+    }
+
+    a {
+      font-size: 1.4rem;
+    }
+}

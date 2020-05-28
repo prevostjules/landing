@@ -1,0 +1,117 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@200;400;700&family=Poppins:wght@300;700&display=swap");
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: "PT Serif", serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: grey;
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-bottom--50px {
+  margin-bottom: 50px;
+}
+
+.banner {
+  background-image: url("../../images/theatre_banner.jpg");
+  background-size: cover;
+  padding: 400px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner h1 {
+  color: white;
+  display: inline-block;
+  background-color: red;
+  padding: 0.8rem 1.4rem;
+}
+.banner h2 {
+  color: white;
+  font-weight: lighter;
+  text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 660px) {
+  .banner h2 {
+    text-align: center;
+  }
+}
+.banner a {
+  font-size: 1.4rem;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+footer a {
+  font-size: 30px;
+  color: #1EDD88;
+}
+footer p {
+  color: #6B6C6C;
+}
+footer .fas {
+  color: #BF0F12;
+}
+
+.btn {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  display: inline-block;
+  background-color: #1EDD88;
+}
+.btn:hover {
+  background-color: #DDF093;
+}
+.btn--big {
+  font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.card-presentation {
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 0 5px #e6e6e6;
+  margin: 32px 0;
+}
+.card-presentation img {
+  width: 80%;
+  height: 230px;
+}
+
+/*# sourceMappingURL=style.css.map */

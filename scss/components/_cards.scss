@@ -1,0 +1,19 @@
+.cards {
+  display:flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.card-presentation {
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  margin: 32px 0;
+
+    img {
+      width: 80%;
+      height: 230px;
+    }
+}
+

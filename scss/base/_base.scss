@@ -1,0 +1,38 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@200;400;700&family=Poppins:wght@300;700&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: grey;
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-bottom--50px {
+  margin-bottom: 50px;
+}
