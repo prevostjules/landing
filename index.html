@@ -9,6 +9,7 @@
   <meta property="og:title" content="Theatre : the ultimate streaming app">
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -46,8 +47,41 @@
           <p>No surprise: only users who have paid can join you.</p>
         </div>
       </div>
-      <a href="#" class="btn btn--big margin-bottom--50px">JOIN US</a>
+      <!-- <a href="#" class="btn btn--big margin-bottom--50px">JOIN US</a> -->
     </main>
+
+    <div class="container">
+      <h2>Tell us a bit more about you</h2>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6">
+          <form action="#">
+            <div class="form-row">
+              <div class="col-12 col-md-6 form-group">
+                <label for="fname">Your First Name</label>
+                <input type="text" id="fname" placeholder="René" class="form-control">
+              </div>
+              <div class="col-12 col-md-6 form-group">
+                <label for="lname">Your Last Name</label>
+                <input type="text" id="lname" placeholder="Coty" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input type="email" id="email" placeholder="rene.coty@raisanous.fr" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="knowus">How do you know us?</label>
+              <select id="knowus" class="form-control">
+                <option value="fb">Facebook</option>
+                <option value="google">Google Search</option>
+                <option value="friend">A friend</option>
+              </select>
+            </div>
+            <input type="submit" value="Send" class="btn btn--big margin-bottom--50px">
+          </form>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <div class="links">
@@ -58,8 +92,9 @@
         <p>Copyright Theatre Corp. 2020</p>
     </div>
     </footer>
-
   </div>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -103,6 +103,7 @@ footer .fas {
 }
 .btn:hover {
   background-color: #DDF093;
+  color: white;
 }
 .btn--big {
   font-size: 2rem;
@@ -124,7 +125,7 @@ footer .fas {
 @media screen and (max-width: 660px) {
   .card-presentation {
     margin: 32px 3px;
-    width: 80%;
+    width: 98%;
   }
 }
 .card-presentation img {
